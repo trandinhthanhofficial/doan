@@ -1,0 +1,47 @@
+.popup-custom .ant-modal-header {
+  border-bottom: 0.5px solid #eee;
+}
+.popup-custom .ant-modal-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  padding: 0px 0 5px 0;
+}
+.popup-custom .ant-modal-footer {
+  border-top: 0.5px solid #eee;
+  padding-top: 10px;
+}
+.popup-custom .ant-modal-body {
+  padding-top: 5px;
+}
+// .ant-switch-inner {
+//   background-color: #eee;
+// }
+.ant-switch {
+  background-color: #eee;
+}
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Đảm bảo video bao phủ toàn bộ diện tích */
+}
+.boxShadow-couses {
+  box-shadow: 0 4px 0 0 rgba(143, 156, 173, 0.2);
+  border: 1px solid #e0e0e0;
+}
+.boxShadow-button {
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+#root {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+body {
+  background-color: #f6f6f6;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}

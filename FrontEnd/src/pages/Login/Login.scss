@@ -1,0 +1,181 @@
+.right {
+  background-color: #bb0000;
+  height: 97vh;
+  top: 10px;
+  left: 10px;
+  border-radius: 20px;
+}
+
+.formLogin {
+  margin: 0 auto;
+  margin-top: 15vh;
+  text-align: center;
+  padding: 0 15vh;
+
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bb0000;
+  }
+}
+
+.formRegister {
+  margin: 0 auto;
+  margin-top: 8vh;
+  text-align: center;
+  padding: 0 15vh;
+
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bb0000;
+  }
+}
+
+.formVerify {
+  margin: 0 auto;
+  margin-top: 30vh;
+  text-align: center;
+  padding: 0 15vh;
+
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #bb0000;
+    margin-bottom: 30px;
+  }
+}
+
+.groupButton {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 30px auto;
+  background-color: #bb0000;
+  border-radius: 40px;
+}
+
+.buttonLogin {
+  border: none;
+  width: 50%;
+  border-radius: 40px;
+  color: white;
+  font-weight: 500;
+  margin: 0 3px;
+}
+
+.buttonLogin:hover {
+  background-color: white;
+  color: #bb0000 !important;
+}
+
+.remember {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+}
+
+.btnLogin {
+  width: 40%;
+  background-color: #bb0000 !important;
+  color: white;
+  padding: 8px;
+  height: 100%;
+  border-radius: 30px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.btnLogin:hover {
+  border: solid 1px #bb0000 !important;
+  background-color: white !important;
+  color: #bb0000 !important;
+}
+
+.btngg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 0 auto;
+  width: 40%;
+  background-color: #ffffff;
+}
+
+.btngg img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.btngg:hover {
+  border: 1px solid #bb0000 !important;
+  color: #bb0000 !important;
+}
+
+@media (max-width: 768px) {
+  .formLogin,
+  .formRegister {
+    padding: 0 5vh;
+    margin-top: 10vh;
+  }
+
+  .groupButton {
+    width: 80%;
+  }
+
+  .buttonLogin {
+    width: 48%;
+  }
+
+  .btnLogin,
+  .btngg {
+    width: 80%;
+  }
+}
+
+@media (max-width: 576px) {
+  .formLogin,
+  .formRegister {
+    padding: 0 2vh;
+  }
+
+  .formLoginItem,
+  .formRegisterItem {
+    margin-top: 40px;
+  }
+
+  .groupButton {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .buttonLogin {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .btnLogin,
+  .btngg {
+    width: 100%;
+  }
+}
+
+.zoom {
+  background-color: #fff;
+  transition: transform 0.3s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

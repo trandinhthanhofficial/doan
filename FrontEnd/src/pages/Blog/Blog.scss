@@ -1,0 +1,44 @@
+.NameLeft {
+  color: white;
+  margin-top: 30px;
+  width: 30%;
+  // padding: 20px 0;
+
+  h4 {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .ant-btn-default {
+    color: white;
+    margin-top: 30px;
+    width: 30%;
+    // padding: 20px 0;
+  }
+
+  .ant-btn-default:hover {
+    border: solid 1px #bb0000 !important;
+    background-color: white !important;
+    color: #bb0000 !important;
+  }
+}
+
+.blog-detail-item {
+  background-color: white;
+  border-radius: 30px;
+}
+.blog-title .ant-input:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.scroll-blog::-webkit-scrollbar {
+  width: 5px;
+}
+
+.btnUploadFile :hover{
+  // color: #bb0000;
+  // border: #bb0000;
+  // background-color: #bb0000;
+}
